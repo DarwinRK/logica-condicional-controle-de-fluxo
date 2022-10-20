@@ -11,32 +11,32 @@ public class OperadoresRelacionais {
         byte y1 = 1;
         short h1 = 25;
 
-        System.out.println("i1 == i2? " + (i1 == i2));
-        System.out.println("i1 != i2? " + (i1 != i2));
-        System.out.println("i1 > i2? " + (i1 > i2));
-        System.out.println("i1 <= i2? " + (i1 <= i2));
+        System.out.println("i1 == i2 = " + (i1 == i2));
+        System.out.println("i1 != i2 = " + (i1 != i2));
+        System.out.println("i1 > i2 = " + (i1 > i2));
+        System.out.println("i1 <= i2 = " + (i1 <= i2));
 
-        System.out.println("f1 == f2? " + (f1 == f2));
-        System.out.println("f1 != f2? " + (f1 != f2));
-        System.out.println("f1 >= f2? " + (f1 >= f2));
-        System.out.println("f1 < f2? " + (f1 < f2));
+        System.out.println("f1 == f2 = " + (f1 == f2));
+        System.out.println("f1 != f2 = " + (f1 != f2));
+        System.out.println("f1 >= f2 = " + (f1 >= f2));
+        System.out.println("f1 < f2 = " + (f1 < f2));
 
-        System.out.println("c1 == c2? " + (c1 == c2));
-        System.out.println("c1 != c2? " + (c1 != c2));
-        System.out.println("c1 > c2? " + (c1 > c2));
-        System.out.println("c1 <= c2? " + (c1 <= c2));
+        System.out.println("c1 == c2 = " + (c1 == c2));
+        System.out.println("c1 != c2 = " + (c1 != c2));
+        System.out.println("c1 > c2 = " + (c1 > c2));
+        System.out.println("c1 <= c2 = " + (c1 <= c2));
 
-        System.out.println("s1 == s2? " + (s1 == s2));
-        System.out.println("s1 != s2? " + (s1 != s2));
-        System.out.println("s1 == s3? " + (s1 == s3));
-        System.out.println("s1 != s3? " + (s1 != s3));
+        System.out.println("s1 == s2 = " + (s1 == s2));
+        System.out.println("s1 != s2 = " + (s1 != s2));
+        System.out.println("s1 == s3 = " + (s1 == s3));
+        System.out.println("s1 != s3 = " + (s1 != s3));
         //Não é possível comparar tamanho de String
 
-        System.out.println("b1 == b2? " + (b1 == b2));
-        System.out.println("b1 != b2? " + (b1 != b2));
+        System.out.println("b1 == b2 = " + (b1 == b2));
+        System.out.println("b1 != b2 = " + (b1 != b2));
         //Não é possível comparar tamanho de boolean
 
-        System.out.println("i1 == f2? " + (i1 == f2));
-        System.out.println("d1 == l2? " + (d1 != l2));        
+        System.out.println("i1 == f2 = " + (i1 == f2));
+        System.out.println("d1 == l2 = " + (d1 != l2));        
     }
 }
