@@ -114,12 +114,16 @@ public class ControleFluxo {
     
         if (salarioMensal < salarioMedio && quantidadeDependentes >= mediaDependentes) {
             System.out.println("Deve receber auxílio");
+        } else {
+            System.out.println("Não tem direito a receber o auxilio");
         }
 
         boolean salarioBaixo = salarioMensal < salarioMedio;
         boolean muitosDependentes = quantidadeDependentes >= mediaDependentes;
         if (salarioBaixo && muitosDependentes) {
             System.out.println("Deve receber auxílio");
+        } else {
+            System.out.println("Não tem direito a receber o auxilio");
         }
             
     }
